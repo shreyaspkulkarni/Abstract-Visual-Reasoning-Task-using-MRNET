@@ -1,24 +1,7 @@
-# Wild-Relation-Network
+# MENET for feature extraction in Abstract Visual Reasoning task 1 #
 
-The repo is a PyTorch implementation of Wild Relational Network (WReN) introduced in DeepMind's [Measuring abstract reasoning in neural networks (ICML 2018)](http://proceedings.mlr.press/v80/santoro18a/santoro18a.pdf).
+The repo is a implementation of Improved MRNET based Network to solve Raven's progressive matrices. We use I-RAVEN dataset for this task, and we also compare this novel approach with previously applied model architectures.
 
-# Dependencies
-
-**Important**
-* PyTorch (0.4.1)
-* TensorBoardX (and Tensorboard)
-
-See ```requirements.txt``` for other dependencies.
-
-# Usage
-
-Run
-```Bash
-python main.py --model <WReN/CNN_MLP/Resnet50_MLP/LSTM> --img_size <input image size> --path <path to your dataset>
-```
-
-# Accuracy Plot
-
-The following figure shows the WReN performance we got using the hyper-parameters in the paper.
-
-![AccPlot](./figures/wren.png)
+## Acknowledgements ##
+* https://github.com/husheng12345/SRAN
+* https://github.com/yanivbenny/MRNet
